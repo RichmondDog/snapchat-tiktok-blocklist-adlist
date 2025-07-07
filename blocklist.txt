@@ -1,0 +1,30 @@
+# Snapchat Blocklist
+# Blocks core Snapchat domains
+feelinsonice-hrd.appspot.com
+feelinsonice.appspot.com
+feelinsonice.l.google.com
+appspot.l.google.com
+app.snapchat.com
+data.flurry.com
+snapads.com
+
+# TikTok Blocklist
+# Blocks core TikTok domains and related CDNs
+tiktok.com
+www.tiktok.com
+tiktokcdn.com
+musical.ly
+snssdk.com
+amemv.com
+toutiao.com
+
+# Regex patterns for broad blocking (Pi-hole v5+ supports regex)
+(\.|^)tiktok\.com$
+(\.|^)tiktokcdn\.com$
+(\.|^)musical\.ly$
+(\.|^)snssdk\.com$
+(\.|^)amemv\.com$
+(\.|^)toutiao\.com$
+(\.|^)snapads\.com$
+(\.|^)feelinsonice\.appspot\.com$
+(\.|^)app\.snapchat\.com$
